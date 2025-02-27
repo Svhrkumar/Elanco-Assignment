@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "type": "module",
- "scripts": {
-  "dev": "nodemon --exec \"node --experimental-specifier-resolution=node --loader ts-node/esm\" src/index.ts"
+  "scripts": {
+    "dev": "nodemon --exec \"node --experimental-specifier-resolution=node --loader ts-node/esm\" src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,8 @@
     "axios": "^1.7.7",
     "cors": "^2.8.5",
     "express": "^4.21.0",
+    "geo-tz": "^8.1.3",
+    "moment-timezone": "^0.5.47",
     "node-cache": "^5.1.2"
   },
   "devDependencies": {

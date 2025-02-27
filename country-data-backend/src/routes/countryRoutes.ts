@@ -6,6 +6,6 @@ const router = express.Router();
 router.get('/', getCountries);
 router.get('/:code', getCountryByCode);
 router.get('/region/:region', filterCountriesByRegion);
-router.get('/search', searchCountries);
+router.get('/search/', searchCountries);
 
 export default router;
