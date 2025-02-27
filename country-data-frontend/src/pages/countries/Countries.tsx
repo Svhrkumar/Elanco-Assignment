@@ -165,12 +165,14 @@ const Countries = () => {
                       key={country.name}
                       country={country}
                       handleDetails={handleDetails}
+
                     />
                   ))
                 ) : (
                   <p className="text-gray-500 text-center col-span-full">No countries found.</p>
-                  
+
                 )}
+                
               </div>
             )}
           </Fragment>
